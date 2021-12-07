@@ -1,0 +1,117 @@
+@media screen and (min-width:1024px) and (max-width: 2324px) {
+    #blog_home{
+        background-image: url(./background_home.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        height: 100vh;
+    }
+    .blog_home{
+        display: flex;
+    }
+    .blog_ellipse{
+        width: 50%;
+        position: relative;
+    }
+    .ellipse{
+        border-radius: 50%;
+        background-color: rgb(255, 24, 98);
+        opacity: 0.6;
+        position: absolute;
+        left: 20%;
+        top: 100px;
+        width: 350px;
+        height: 350px;
+        z-index: 287;
+      }   
+      .ellipse_title{
+            font-size: 3rem;
+            font-family: "Raleway";
+            background-color: red;
+            color: rgb(255, 255, 255);
+            line-height: 1.8;
+            transform: matrix( 0.42910152422963,0,0,0.42892999155476,0,0);
+            -webkit-transform: matrix( 0.42910152422963,0,0,0.42892999155476,0,0);
+            -ms-transform: matrix( 0.42910152422963,0,0,0.42892999155476,0,0);
+            z-index: 298;       
+      }  
+      .blog_description{
+          position: relative;
+          width: 50%;
+      }
+      .blog_description_title{
+            font-size: 62.5px;
+            font-family: "Raleway";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1.2;
+            position: absolute;
+            top: 35%;
+            z-index: 246;
+      }
+      .blog_description_barre{
+          position: absolute;
+          top:50%;
+          left: 35%;
+          background-color: rgb(255, 255, 255);
+          width: 161px;
+          height: 7px;
+          z-index: 245;        
+        }
+        .blog_description .blog_description_text{
+            margin-top: 50%;
+              font-size: 25px;
+              font-family: "Raleway";
+              color: rgb(255, 255, 255);
+              width: 477px;
+              height: 115px;
+              z-index: 244; 
+        }
+        .sous_blog_description{
+            width: 50%;
+            margin: 70px auto 0 auto;
+            color: white;
+        }
+        .background_sous_description{
+            background-image: url(./background.png);
+            background-size: cover;
+            height: 220px;
+        }
+        .background_sous_description_text{
+            width: 50%;
+            margin:auto;
+            padding-top: 90px;
+            margin-bottom: 20%;
+            color: white;
+        }
+        .blog_different{
+            margin-top: 90px;
+            width: 100%;
+        }
+        .blog_different_section{
+            padding-left: 10%;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+        }
+        .blog_different_text1{
+            width: 50%;
+            margin-top: 10%;
+            color: white;
+        }
+        .img4,.img2{
+            max-width: 48%;
+            margin-right: 30px;
+        }
+        .offre_site{
+            color: white;
+            text-align: center;
+            display: flex;
+            margin-top: 8%;
+        }
+        .img_site_offre{
+            max-width: 80%;
+            max-height: 80%;
+        }
+}

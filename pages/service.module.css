@@ -1,0 +1,109 @@
+@media screen and (min-width:1024px) and (max-width: 2324px){
+.service_build{
+    color: white;
+    width: 40%;
+    }
+    .service_build_title {
+        font-size: 29px;
+        font-family: "Raleway";
+        color: white;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        z-index: 230;
+    }
+    .body_text {
+        font-size: 18.75px;
+        font-family: "Raleway";
+        color: whitesmoke;
+        text-align: center;
+        height: 119px;
+        z-index: 229;
+      } 
+      /* .blog_service{
+          background-color: tomato;
+      } */
+      .blog_service_build{
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+      }
+      .service_build{
+          margin-top: 10%;
+          width: 40%;
+      }
+      .blog_img_service{
+          margin-top: 10%;
+          width: 40%;
+      }
+      .img_service{
+          max-height: 100%;
+          max-width: 110%;
+      }  
+      .What_We_Do{
+          background-image: url(./whatdo.jpg);
+          height: 400px;
+      }   
+      .What_We_Do_title{
+          padding-top: 5%;
+        margin-left: 10%;
+        font-size: 29px;
+        font-family: "Raleway";
+        color: white;
+        font-weight: bold;
+        line-height: 1.2;
+        text-shadow: 1px 1px 2px white;
+        z-index: 230;
+      }
+      .What_We_Do_text{
+          color: white;
+          width: 50%;
+          margin-left: 10%;
+      }
+      .What_We_Do_column{
+          color: white;
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+      }
+      .last_part{
+          background-color: white;
+          height: 650px;
+          margin-top: 10%;
+          margin-bottom: 20%;
+      }
+      .last_part_title{
+          padding-top: 5%;
+          margin-left: 5%;
+      }
+      .last_part_choix .cursore{
+            font-size: 2rem;
+            font-family: "Raleway";
+            color: rgb(45, 47, 42);
+            font-weight: bold;
+            line-height: 1.2;
+            text-align: left;
+            -moz-transform: matrix( 1.00052548607462,0,0,1,0,0);
+            -webkit-transform: matrix( 1.00052548607462,0,0,1,0,0);
+            -ms-transform: matrix( 1.00052548607462,0,0,1,0,0);
+            z-index: 155;
+            cursor: pointer;
+        }
+      .last_part_column{
+        display: flex;
+        justify-content: space-around;
+      }
+      .last_part_middle{
+          width: 30%;
+      }
+      .last_part_rigth{
+          margin-top: -10px;
+          height: 300px;
+          width: 300px;
+          background-color: black;
+          color:blanchedalmond;
+          text-align: center;
+      }
+}
+
+  
