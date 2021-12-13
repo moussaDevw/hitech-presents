@@ -1,4 +1,4 @@
-@media screen and (min-width:1024px) and (max-width: 2324px) {
+@media screen and (min-width:1024px){
     #blog_home{
         background-image: url(./background_home.jpg);
         background-size: cover;
@@ -13,28 +13,29 @@
         width: 50%;
         position: relative;
     }
-    .ellipse{
+    /* .ellipse{
         border-radius: 50%;
         background-color: rgb(255, 24, 98);
         opacity: 0.6;
         position: absolute;
         left: 20%;
         top: 100px;
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         z-index: 287;
       }   
       .ellipse_title{
-            font-size: 3rem;
+            font-size: 2.5vw;
+            margin-top: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             font-family: "Raleway";
-            background-color: red;
             color: rgb(255, 255, 255);
             line-height: 1.8;
-            transform: matrix( 0.42910152422963,0,0,0.42892999155476,0,0);
-            -webkit-transform: matrix( 0.42910152422963,0,0,0.42892999155476,0,0);
-            -ms-transform: matrix( 0.42910152422963,0,0,0.42892999155476,0,0);
             z-index: 298;       
-      }  
+      }   */
       .blog_description{
           position: relative;
           width: 50%;
@@ -47,13 +48,13 @@
             text-transform: uppercase;
             line-height: 1.2;
             position: absolute;
-            top: 35%;
+            top: 10vw;
             z-index: 246;
       }
       .blog_description_barre{
           position: absolute;
-          top:50%;
-          left: 35%;
+          top:20vw;
+          left: 1%;
           background-color: rgb(255, 255, 255);
           width: 161px;
           height: 7px;
@@ -130,7 +131,7 @@
         width: 50%;
         position: relative;
     }
-    .ellipse{
+    /* .ellipse{
         border-radius: 50%;
         background-color: rgb(255, 24, 98);
         opacity: 0.6;
@@ -151,7 +152,7 @@
             -webkit-transform: matrix( 0.42910152422963,0,0,0.42892999155476,0,0);
             -ms-transform: matrix( 0.42910152422963,0,0,0.42892999155476,0,0);
             z-index: 298;       
-      }  
+      }   */
       .blog_description{
           position: relative;
           width: 50%;
@@ -251,7 +252,7 @@
         display: flex;
         justify-content: center;
     }
-    .ellipse{
+    /* .ellipse{
         border-radius: 50%;
         background-color: rgb(255, 24, 98);
         opacity: 0.6;
@@ -268,7 +269,7 @@
         z-index: 298;
         position: absolute;
         bottom: 40%;   
-      }  
+      }   */
       .blog_description{
           position: relative;
           width: 50%;
@@ -383,7 +384,7 @@
         display: flex;
         justify-content: center;
     }
-    .ellipse{
+    /* .ellipse{
         border-radius: 50%;
         background-color: rgb(255, 24, 98);
         opacity: 0.6;
@@ -403,7 +404,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-      }  
+      }   */
       .blog_description{
           position: relative;
           width: 50%;
@@ -521,7 +522,7 @@
         display: flex;
         justify-content: center;
     }
-    .ellipse{
+    /* .ellipse{
         border-radius: 50%;
         background-color: rgb(255, 24, 98);
         opacity: 0.6;
@@ -541,7 +542,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-      }  
+      }   */
       .blog_description{
           position: relative;
           width: 50%;
