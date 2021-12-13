@@ -40,8 +40,8 @@ export default function Home() {
         <div className={style_home.blog_different}>
             <div className={style_home.blog_different_section}>
                 <div className={style_home.blog_different_text1}>
-                    <h3 className="text-white">Nous sommes spécialisés .</h3>
-                    <p className="text-white">Nous ne sommes pas des généralistes, nous ne vous proposons que ce que nous faisons le mieux : actifs de marque, conception UI/UX, développement full-stack et optimisation de la conversion.</p>
+                    <h3>Nous sommes spécialisés .</h3>
+                    <p>Nous ne sommes pas des généralistes, nous ne vous proposons que ce que nous faisons le mieux : actifs de marque, conception UI/UX, développement full-stack et optimisation de la conversion.</p>
                 </div>
                 <img src="./image/p3.jpg" className={style_home.img1} />
             </div>
@@ -68,18 +68,14 @@ export default function Home() {
             </div>
         </div>
         <div className={style_home.offre_site}>
-            <div>
+            <div className={style_home.offre_site_text}>
                 <h3>Obtenez le site Web de vos rêves .</h3>
                 <p>Nous aidons les marques à créer des sites Web d'entreprise et des magasins de commerce électronique mémorables, axés sur la conversion et pérennes.</p>
             </div>
-            <div>
+            <div className={style_home.img_site_blog}>
                 <img src="./image/site_offre.jpg" className={style_home.img_site_offre} />
             </div>
         </div>
-        <div>
-            <h3>Ce que nous offrons</h3>
-        </div>
-        {/* <Footer /> */}
         </div>
     </div>
   )

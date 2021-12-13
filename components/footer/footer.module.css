@@ -1,0 +1,114 @@
+@media screen and (min-width:1025px) {
+    .blog_footer{
+        background-color: gray;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        color: honeydew;
+    }
+    
+    .blog_footer div{
+        width: 30%;
+    }
+    .blog_footer div h3{
+        color: wheat;
+        font-size: 2vw;
+        font-weight: 900;
+    }
+    
+    .blog_footer div p{
+        font-size: 2vw;
+    }
+}
+@media screen and (min-width:760px) and (max-width: 1025px){
+.blog_footer{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    color: honeydew;
+    }
+
+    .blog_footer div{
+        width: 30%;
+    }
+    .blog_footer div h3{
+        color: wheat;
+        font-size: 2vw;
+        font-weight: 900;
+    }
+
+    .blog_footer div p{
+        font-size: 2vw;
+    }
+}
+@media screen and (min-width:479px) and (max-width: 760px){
+    .blog_footer{
+        background-color: gray;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        color: honeydew;
+        }
+    
+        .blog_footer div{
+            width: 30%;
+        }
+        .blog_footer div h3{
+            color: wheat;
+            font-size: 2vw;
+            font-weight: 900;
+        }
+    
+        .blog_footer div p{
+            font-size: 2vw;
+        }
+}
+
+@media screen and (min-width:260px) and (max-width: 479px){
+    .blog_footer{
+        background-color: gray;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        margin-bottom: 20%;
+        color: honeydew;
+        }
+    
+        .blog_footer div{
+            width: 30%;
+        }
+        .blog_footer div h3{
+            color: wheat;
+            font-size: 2vw;
+            font-weight: 900;
+        }
+    
+        .blog_footer div p{
+            font-size: 2vw;
+        }
+}
+
+@media screen and (min-width:0px) and (max-width: 259px){
+    .blog_footer{
+        background-color: gray;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        margin-bottom: 25%;
+        color: honeydew;
+        }
+    
+        .blog_footer div{
+            width: 30%;
+        }
+        .blog_footer div h3{
+            color: wheat;
+            font-size: 2vw;
+            font-weight: 900;
+        }
+    
+        .blog_footer div p{
+            font-size: 2vw;
+        }
+}

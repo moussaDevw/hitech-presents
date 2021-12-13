@@ -20,11 +20,13 @@ export default function AgenceConseil(){
                     <p>Nous pouvons aider votre entreprise en rédigeant une copie marketing efficace pour toutes les pages de destination clés que vous désirez.</p>
                 </div>
                 <div className={style_agency.blog_img_agency}>
-                    <img src="./image/marketing.jpg" className={style_agency.agency_img} />
+                    <img src="./image/mark.jpg" className={style_agency.agency_img_mobile} />
+                    <img src="./image/mark_pc.jpg" className={style_agency.agency_img} />
                 </div>
             </div>
             <div className={style_agency.agency_column}>
                 <div className={style_agency.blog_img_agency}>
+                    <img src="./image/3158778-bell.jpg" className={style_agency.agency_img_mobile} />
                     <img src="./image/freedom.jpg" className={style_agency.agency_img} />
                 </div>
                 <div className={style_agency.agency_column_text}>
@@ -38,6 +40,7 @@ export default function AgenceConseil(){
                     <p>Ce que vous avez accompli et ce que vous faites est précieux. Nous vous aiderons à communiquer cela aux clients potentiels de manière efficace.</p>
                 </div>
                 <div className={style_agency.blog_img_agency}>
+                    <img src="./image/4279263-mitchell.jpg" className={style_agency.agency_img_mobile} />
                     <img src="./image/makeup.jpg" className={style_agency.agency_img} />
                 </div>
             </div>

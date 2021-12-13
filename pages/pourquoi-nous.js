@@ -2,7 +2,7 @@ import style_why from './why.module.css'
 export default function WhyWe(){
     return(
         <div className={style_why.blog_whyWe}>
-            <h1>Pourquoi HITECH-PRESENT</h1>
+            <h1>Pourquoi HITECH-PRESENT ?</h1>
             <h2>Nous livrons des sites Web mémorables.</h2>
             <div className={style_why.blog_whyWe_text}>
                 <h3 className={style_why.blog_whyWe_title}>Des victoires mémorables, à chaque fois.</h3>
@@ -19,16 +19,18 @@ export default function WhyWe(){
                     <p>Les clients nous embauchent en fonction de notre mérite - ils nous aiment pour notre accessibilité. Nous nous efforçons d'être incroyablement réactifs à vos besoins afin que vous ne vous sentiez jamais ignoré et que vous vous sentiez toujours pris en charge.</p>
                 </div>
                 <div>
-                    <img src="./image/marketing.jpg" className={style_why.img} />
+                    <img src="./image/marketing.jpg" className={style_why.img_pc} />
+                    <img src="./image/mark.jpg" className={style_why.img_mobile} />
                 </div>
             </div>
             <div className={style_why.blog_descrition}>
                 <div>
-                    <h3>Vous êtes fier de votre marque. Maintenant, vous serez fier de votre site Web .</h3>
-                    <p>Vous avez construit une marque incroyable - votre nouveau site Web le reflétera et le fera même passer au niveau supérieur. Chaque élément de votre nouveau site s'alignera parfaitement avec la voix et les valeurs de votre marque. (Découvrez-vous toujours votre marque ? Nous pouvons également vous aider.)</p>
+                    <img src="./image/2457347-bell.jpg" className={style_why.img_mobile} />
+                    <img src="./image/2457347.jpg" className={style_why.img_pc} />
                 </div>
                 <div>
-                    <img src="./image/marketing.jpg" className={style_why.img} />
+                    <h3>Vous êtes fier de votre marque. Maintenant, vous serez fier de votre site Web .</h3>
+                    <p>Vous avez construit une marque incroyable - votre nouveau site Web le reflétera et le fera même passer au niveau supérieur. Chaque élément de votre nouveau site s'alignera parfaitement avec la voix et les valeurs de votre marque. (Découvrez-vous toujours votre marque ? Nous pouvons également vous aider.)</p>
                 </div>
             </div>
             <div className={style_why.blog_descrition}>
@@ -37,7 +39,8 @@ export default function WhyWe(){
                     <p>Vous avez des objectifs financiers à atteindre. Nous comprenons tout à fait cela. C'est pourquoi nous nous concentrons sur et améliorons considérablement les mesures qui comptent : les conversions, les ventes et l'engagement. Dites-nous vos KPI et nous vous créerons un site Web qui les fera sortir du parc.</p>
                 </div>
                 <div>
-                    <img src="./image/telephone016.gif" className={style_why.img3} />
+                    <img src="./image/5468690-lanczos3.jpg" className={style_why.img_mobile} />
+                    <img src="./image/5468690.jpg" className={style_why.img_pc} />
                 </div>
             </div>
         </div>

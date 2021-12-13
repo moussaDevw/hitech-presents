@@ -1,51 +1,319 @@
-.blog_agency_title{
-    color: white;
-    text-align: center;
-    margin-top: 4%;
+@media screen and (min-width:1024px) and (max-width: 2324px){
+    .blog_agency_title{
+        color: white;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .blog_agency_par{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 4%;
+        font-size: 3rem;
+        font-family: "Raleway";
+        color: rgb(45, 47, 42);
+        font-weight: bold;
+        line-height: 1.2;
+        -moz-transform: matrix( 1.00052548607462,0,0,1,0,0);
+        -webkit-transform: matrix( 1.00052548607462,0,0,1,0,0);
+        -ms-transform: matrix( 1.00052548607462,0,0,1,0,0);
+        z-index: 155;
+    }
+    .blog_background_agency{
+        margin-top: 10%;
+        display: flex;
+        height: 300px;
+    }
+    .blog_background_agency1{
+        background-image: url(./background_agence1.jpg);
+        width: 50%;
+        height: 300px;
+    }
+    .blog_background_agency2{
+        background-image: url(./background_agency2.jpg);
+        width: 50%;
+        max-height: 300px;
+    }
+    .agency_column{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+    .agency_column_text{
+        width: 50%;
+    }
+    .blog_img_agency{
+        width: 45%;
+    }
+    .agency_img_mobile{
+        display: none;
+    }
+    .agency_img{
+        max-width: 100%;
+        max-height: 90%;
+    }
 }
-.blog_agency_par{
-    width: 90%;
-    text-align: center;
-    margin-left: 5%;
-    margin-top: 4%;
-    font-size: 3rem;
-    font-family: "Raleway";
-    color: rgb(45, 47, 42);
-    font-weight: bold;
-    line-height: 1.2;
-    -moz-transform: matrix( 1.00052548607462,0,0,1,0,0);
-    -webkit-transform: matrix( 1.00052548607462,0,0,1,0,0);
-    -ms-transform: matrix( 1.00052548607462,0,0,1,0,0);
-    z-index: 155;
+
+@media screen and (min-width:760px) and (max-width: 1025px){
+    .blog_agency_title{
+        color: white;
+        text-align: center;
+        margin: 14% auto 5% auto;
+        width: 50%;
+        text-align: center;
+    }
+    .blog_agency_par{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 4%;
+        font-size: 3rem;
+        font-family: "Raleway";
+        color: rgb(45, 47, 42);
+        font-weight: bold;
+        line-height: 1.2;
+        -moz-transform: matrix( 1.00052548607462,0,0,1,0,0);
+        -webkit-transform: matrix( 1.00052548607462,0,0,1,0,0);
+        -ms-transform: matrix( 1.00052548607462,0,0,1,0,0);
+        z-index: 155;
+    }
+    .blog_background_agency{
+        margin-top: 10%;
+        display: flex;
+        height: 300px;
+    }
+    .blog_background_agency1{
+        background-image: url(./background_agence1.jpg);
+        width: 50%;
+        height: 300px;
+    }
+    .blog_background_agency2{
+        background-image: url(./background_agency2.jpg);
+        width: 50%;
+        max-height: 300px;
+    }
+    .agency_column{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+    .agency_column_text{
+        width: 40%;
+    }
+    .blog_img_agency{
+        width: 40%;
+    }
+    .agency_img_mobile{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .agency_img{
+        display: none;
+    }
 }
-.blog_background_agency{
-    margin-top: 10%;
-    display: flex;
-    height: 300px;
+
+@media screen and (min-width:480px) and (max-width: 760px){
+    .blog_agency_title{
+        color: white;
+        text-align: center;
+        margin: 18% auto 5% auto;
+        width: 90%;
+        font-size: 4vw;
+    }
+    .blog_agency_par{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 4%;
+        font-size: 6vw;
+        font-family: "Raleway";
+        color: rgb(45, 47, 42);
+        font-weight: bold;
+        line-height: 1.2;
+        z-index: 155;
+    }
+    .blog_background_agency{
+        margin-top: 10%;
+        display: flex;
+        height: 300px;
+    }
+    .blog_background_agency1{
+        background-image: url(./background_agence1.jpg);
+        width: 50%;
+        height: 200px;
+    }
+    .blog_background_agency2{
+        background-image: url(./background_agency2.jpg);
+        width: 50%;
+        max-height: 200px;
+    }
+    .agency_column{
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+    .agency_column_text{
+        width: 44%;
+    }
+    .agency_column_text h3{
+        font-size: 3vw;
+    }
+    .agency_column_text h5{
+        font-size: 3vw;
+    }
+    .agency_column_text p{
+        font-size: 3vw;
+    }
+    .blog_img_agency{
+        width: 44%;
+    }
+    .agency_img_mobile{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .agency_img{
+        display: none;
+    }
 }
-.blog_background_agency1{
-    background-image: url(./background_agence1.jpg);
-    width: 50%;
-    height: 300px;
+@media screen and (min-width:260px) and (max-width: 480px){
+    .blog_agency_title{
+        color: white;
+        text-align: center;
+        margin: 18% auto 5% auto;
+        width: 90%;
+        font-size: 4vw;
+    }
+    .blog_agency_par{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 4%;
+        font-size: 6vw;
+        font-family: "Raleway";
+        color: rgb(45, 47, 42);
+        font-weight: bold;
+        line-height: 1.2;
+        z-index: 155;
+    }
+    .blog_background_agency{
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        margin-bottom: 0;
+    }
+    .blog_background_agency1{
+        background-image: url(./background_agence1.jpg);
+        width: 50%;
+        max-height: 50%;
+        background-size: cover;
+    }
+    .blog_background_agency2{
+        background-image: url(./background_agence1.jpg);
+        width: 50%;
+        max-height: 50%;
+        background-size: cover;
+    }
+    .agency_column{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+    .agency_column_text{
+        width: 50%;
+    }
+    .agency_column_text h3{
+        font-size: 3vw;
+    }
+    .agency_column_text h5{
+        font-size: 3vw;
+        margin: 0%;
+    }
+    .agency_column_text p{
+        font-size: 3vw;
+    }
+    .blog_img_agency{
+        width: 44%;
+    }
+    .agency_img_mobile{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .agency_img{
+        display: none;
+    }
 }
-.blog_background_agency2{
-    background-image: url(./background_agency2.jpg);
-    width: 50%;
-    max-height: 300px;
-}
-.agency_column{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-}
-.agency_column_text{
-    width: 40%;
-}
-.blog_img_agency{
-    width: 40%;
-}
-.agency_img{
-    width: 100%;
+
+@media screen and (min-width:0px) and (max-width: 260px){
+    .blog_agency_title{
+        color: white;
+        text-align: center;
+        margin: 18% auto 5% auto;
+        width: 90%;
+        font-size: 4vw;
+    }
+    .blog_agency_par{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 4%;
+        font-size: 6vw;
+        font-family: "Raleway";
+        color: rgb(45, 47, 42);
+        font-weight: bold;
+        line-height: 1.2;
+        z-index: 155;
+    }
+    .blog_background_agency{
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        margin-bottom: 0;
+    }
+    .blog_background_agency1{
+        background-image: url(./background_agence1.jpg);
+        width: 50%;
+        max-height: 50%;
+        background-size: cover;
+    }
+    .blog_background_agency2{
+        background-image: url(./background_agence1.jpg);
+        width: 50%;
+        max-height: 50%;
+        background-size: cover;
+    }
+    .agency_column{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+    .agency_column_text{
+        width: 50%;
+    }
+    .agency_column_text h3{
+        font-size: 3vw;
+    }
+    .agency_column_text h5{
+        font-size: 3vw;
+        margin: 0%;
+    }
+    .agency_column_text p{
+        font-size: 3vw;
+    }
+    .blog_img_agency{
+        width: 44%;
+    }
+    .agency_img_mobile{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .agency_img{
+        display: none;
+    }
 }
